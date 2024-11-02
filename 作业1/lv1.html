@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 120px;
+            background-color: pink;
+        }
+
+        table {
+            width: 400px;
+
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .t1 {
+            width: 300px;
+        }
+
+        .t2 {
+            text-align: center;
+        }
+
+        tr {
+            height: 40px;
+        }
+
+        .in1 {
+            width: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>这是我的二级标题</h2>
+    <p>百度一分钟，听人吹牛两小时（这是一个p标签）</p>
+    <h3>这是我的三级标题</h3>
+    <p>这里有一张图片</p>
+    <img src="./Snipaste_2024-10-20_13-07-00.png" alt="">
+    <div>我是一个宽120px高100px的一个颜色为粉色的盒子</div>
+    <a href="https://www.baidu.com/">点击我可以跳转到百度</a>
+    <ul>
+        <li>我</li>
+        <li>是</li>
+        <li>无</li>
+        <li>序</li>
+        <li>表</li>
+    </ul>
+    <hr>
+    <input class="in1" type="text" placeholder="我是一个宽300px但是输入没什么用的输入框">
+    <input type="button" value="不管怎么按都没用的按钮"><br>
+    下面是一个宽为400px，每一行的高为40px的表格，注意有一些单元格位置要居中哦~
+    <br>
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td class="t1"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td class="t1"><input type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="t2"><input type="button" value="提交"><input type="button" value="重置"></td>
+        </tr>
+    </table>
+    下面是你自己的自我描述，写了这么久，总要来个自我介绍吧~
+    <br>
+    性别 男<input type="radio" name="sex" id="" checked>女<input type="radio" name="sex" id="">城市：<select name="" id="">
+        <option>重庆</option>
+        <option>安徽</option>
+    </select>
+    爱好：<input type="checkbox" name="" id="">打游戏<input type="checkbox" name="" id="">看电影 <input type="checkbox" name="" id="">听音乐 <input type="checkbox" name="" id="">运动
+    <br>目标：<textarea name="" id="" cols="30" rows="3" placeholder="我要努力加入前端！加油！"></textarea>
+</body>
+
+</html>
